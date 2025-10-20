@@ -1,0 +1,21 @@
+
+@import "_variables.scss";
+@import "_mixin.scss";
+@import "_resets.scss";
+@import "_header.scss";
+@import "_about.scss";
+
+
+body {
+    background-image: url("");
+    background-position: center;
+  }
+
+  .card {
+    backdrop-filter: blur(5px) saturate(180%);
+    -webkit-backdrop-filter: blur(5px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.73);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+  }
+

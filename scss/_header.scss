@@ -1,0 +1,26 @@
+header{
+    position: absolute;
+    @include flexbox(null, space-between,center,null);
+    width: 100%;
+    padding: $size_md $size_xl;
+    @include glassEffect(5px);
+
+    .headerTitle { 
+        @include flexbox($size_large, $white, 700);
+        
+    
+
+    .headerMenu { 
+        @include flexbox(null,null,center,20px);
+        list-style: none;
+
+        a{ 
+            color: $white;
+            text-decoration: none;
+
+
+        }
+    }
+
+  }
+}

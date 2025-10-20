@@ -1,0 +1,29 @@
+
+@mixin glassEffect ($glassBlur: 1px){
+backdrop-filter: blur(16px) saturate(180%);
+background-color: rgba(17, 25, 40, 0.73);
+border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+@mixin flexbox (
+$direction: row,
+$justify: flex-start,
+$align: flex-start,
+$flexGap: 0
+)
+ { 
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+    gap: $flexGap;
+    
+    }
+
+@mixin text ($textSize:10px, $textColor: white, $textWeight:400){
+    font-size: $textSize;
+    color:$textColor;
+    font-weight: $textWeight;
+
+}
+
